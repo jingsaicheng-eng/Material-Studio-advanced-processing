@@ -7,7 +7,8 @@ use MaterialsScript qw(:all);
 
 # -------------------------------------------------------------------------
 # Linked calculation stage only.
-#
+# Author Jingsai Cheng
+# E-mail jingsaicheng@gmail.com
 # This script submits/generates all CASTEP raw data needed for:
 #   effective-mass tensor + A/B/C deformation potentials + elastic moduli
 #   + carrier mobility.
