@@ -5,7 +5,8 @@ use MaterialsScript qw(:all);
 
 # -------------------------------------------------------------------------
 # Effective mass from a CASTEP .bands file.
-#
+# Author Jingsai Cheng
+# E-mail jingsaicheng@gmail.com
 # CASTEP .bands contains:
 #   - k-points in fractional reciprocal-lattice coordinates
 #   - eigenvalues in atomic units (Hartree)
