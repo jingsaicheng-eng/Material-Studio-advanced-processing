@@ -8,7 +8,8 @@ use MaterialsScript qw(:all);
 # Planar average of a CASTEP field along X, Y, Z, AUTO, or ALL.
 # X: average over YZ planes; Y: average over XZ planes; Z: average over XY planes.
 # AUTO chooses the longest lattice direction, which is usually the vacuum/slab normal.
-
+# Author Jingsai Cheng
+# E-mail jingsaicheng@gmail.com
 my $InputDocumentName = "1.xsd";
 my $FieldName = "CASTEP SCF local potential";
 my $Axis = "X";                  # X, Y, Z, AUTO, or ALL.
