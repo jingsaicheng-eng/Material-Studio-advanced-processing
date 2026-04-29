@@ -6,7 +6,8 @@ use MaterialsScript qw(:all);
 
 # -------------------------------------------------------------------------
 # Materials Studio standalone fugacity converter.
-#
+# Author Jingsai Cheng
+# E-mail jingsaicheng@gmail.com
 # Scope:
 #   Only converts pressure/composition/temperature to fugacity.
 #   It does not run Sorption, FixedPressure, or any other MS calculation task.
