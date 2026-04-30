@@ -4,6 +4,9 @@ use strict;
 use Getopt::Long;
 use MaterialsScript qw(:all);
 
+# Author Jingsai Cheng
+# E-mail jingsaicheng@gmail.com
+# Change CASTEP cdd fiel to VASP CHGDIFF
 # --- 1. Get current document and grid field data ---
 my $doc = $Documents{"BN-P.xsd"};
 my $field = $doc->AsymmetricUnit->Fields("CASTEP density difference from sets");
